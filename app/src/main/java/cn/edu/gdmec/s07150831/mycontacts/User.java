@@ -13,7 +13,7 @@ public class User {
     private String danwei;
     private String qq;
     private String address;
-    private int id_DB = -1;
+    private int id_DB = -1; //表主键ID
 
     //getter setter 方法
     public String getAddress() {
@@ -36,8 +36,8 @@ public class User {
         return id_DB;
     }
 
-    public void setId_DB(int id_DB) {
-        this.id_DB = id_DB;
+    public void setId_DB(int idDB) {
+        this.id_DB = idDB;
     }
 
     public String getMobile() {

@@ -8,7 +8,7 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class UpdateContactsActivity extends Activity {
+public class UpdateContactsActivity extends AppCompatActivity {
     //声明界面控件属性
     private EditText nameEditText;
     private EditText mobileEditText;

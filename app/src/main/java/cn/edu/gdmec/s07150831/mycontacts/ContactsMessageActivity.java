@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
 /*-----------------显示联系人界面-------------------------------*/
-public class ContactsMessageActivity extends Activity {
+public class ContactsMessageActivity extends AppCompatActivity {
     //声明界面控件属性
     private EditText nameEditText;
     private EditText mobileEditText;

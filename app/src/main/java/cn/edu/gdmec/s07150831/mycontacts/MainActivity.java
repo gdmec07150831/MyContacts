@@ -26,7 +26,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /*--------------------主界面------------------------*/
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
     private ListView listView; //显示结果列表
     private BaseAdapter listViewAdapter; //ListView列表适配器
     private User users[]; //通讯录用户
