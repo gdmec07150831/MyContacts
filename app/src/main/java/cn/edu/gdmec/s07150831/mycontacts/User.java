@@ -16,21 +16,12 @@ public class User {
     private int id_DB = -1;
 
     //getter setter 方法
-
-    public String getName() {
-        return name;
+    public String getAddress() {
+        return address;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getMobile() {
-        return mobile;
-    }
-
-    public void setMobile(String mobile) {
-        this.mobile = mobile;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getDanwei() {
@@ -41,22 +32,6 @@ public class User {
         this.danwei = danwei;
     }
 
-    public String getQq() {
-        return qq;
-    }
-
-    public void setQq(String qq) {
-        this.qq = qq;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
     public int getId_DB() {
         return id_DB;
     }
@@ -65,5 +40,27 @@ public class User {
         this.id_DB = id_DB;
     }
 
+    public String getMobile() {
+        return mobile;
+    }
 
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getQq() {
+        return qq;
+    }
+
+    public void setQq(String qq) {
+        this.qq = qq;
+    }
 }
